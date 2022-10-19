@@ -1,6 +1,6 @@
 import React from "react";
-import image2 from '../img/image2.png'
-const Home = () => {
+import image2 from '../../img/image2.png'
+const Slider1 = () => {
   return (
     <div className="md:px-36 px-5  h-screen  ">
       <section class=" body-font md:pt-24">
@@ -34,4 +34,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Slider1;
