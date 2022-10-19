@@ -1,22 +1,22 @@
 import React from 'react';
+import image1 from '../../img/image6.jpg'
 
 const Slider2 = () => {
     return (
-        <div>
+        <div className='md:px-36 px-5 bg-zinc-400 h-screen'>
             <section class="text-gray-600 body-font">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-      <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
+      <img class="object-cover object-center rounded" alt="hero" src={image1}/>
     </div>
     <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
-        <br class="hidden lg:inline-block"/>readymade gluten
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Welcome to <span className='text-[#EE4248]'> Dwidasa Samsara  <br class="hidden lg:inline-block"/>Indonesia (DSI)</span> 
+        
       </h1>
-      <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
-      <div class="flex justify-center">
-        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
-      </div>
+      <p class="mb-8 leading-relaxed">Dwidasa Samsara Indonesia (DSI) was firstly established in 2010 by the founders , who each of them has a common end objective to innovate new creations by making the most of the ever-growing information technology through <span className='text-[#EE4248] text-xl font-bold'>DSI</span>,s distinct front-end based application concept  </p>
+
+      <p>managed by team of professional experts with extensive experience and impressive track  , <span className='text-[#EE4248] text-xl font-bold'>DSI</span>  believes that continuous improvement and innovations assure your business to run effectively and efficiently </p>
+  
     </div>
   </div>
 </section>
