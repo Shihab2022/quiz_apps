@@ -1,5 +1,4 @@
 import React from 'react';
-import Quiz from '../Quiz/Quiz';
 import Card from './Card';
 import Footer from './Footer';
 import Slider1 from './Slider1';
@@ -12,7 +11,6 @@ const Home = () => {
             <Slider2/>
             <Card/>
             <Footer/>
-            <Quiz/>
         </div>
     );
 };

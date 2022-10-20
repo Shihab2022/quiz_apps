@@ -86,16 +86,16 @@ console.log(QuizData.length , progress)
 
 //   console.log(QuizData.length, count, pro);
   return (
-    <div className=" mt-20  h-screen bg-blue-100">
-      <div className="flex px-20 flex-col pt-32 justify-center items-center">
-        <div className="w-screen px-64 ">
+    <div className=" md:mt-20 mt-10  h-screen bg-blue-100">
+      <div className="flex md:px-20 px-5 flex-col pt-20 md:pt-32 justify-center items-center">
+        <div className="w-screen md:px-64 px-10 ">
           <h1 className="text-4xl font-semibold my-5 text-center ">
             ({QuizData[count].id}) {QuizData[count].question}{" "}
           </h1>
           <h1 className="text-xl font-semibold my-5 text-center uppercase ">
             Select up to one option{" "}
           </h1>
-          <div className="grid grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             {QuizData[count]?.options?.map((data) => (
               <div
                 onClick={() => handleClick()}
@@ -107,7 +107,7 @@ console.log(QuizData.length , progress)
             ))}
           </div>
         </div>
-        <div className="flex w-screen px-64 mt-5 ">
+        <div className="flex w-screen md:px-64 px-10 mt-5 ">
           {count === 0 ? (
             <button
               class={`inline-flex disabled text-white bg-[#8b8686] border-0 py-2 px-6 focus:outline-none rounded `}
