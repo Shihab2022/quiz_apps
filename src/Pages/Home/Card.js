@@ -19,7 +19,7 @@ const Card = () => {
     {
       name: "Our Technology",
       description:
-        "First JAVA, runs on more than 850 million personal computers worldwide, and on billions of devices worldwide, including mobile and TV devices.",
+        "First JAVA, runs on more than 850 million personal computers worldwide, and on billions of devices worldwide, including mobile .",
       icon: <FaCannabis />,
       id: 3,
     },
@@ -29,10 +29,10 @@ const Card = () => {
       <h1 className="text-3xl font-bold my-10 text-center">
         Product and Service
       </h1>
-      <div className="grid grid-cols-3 gap-5">
+      <div className="grid lg:grid-cols-3 gap-5">
         {cardData.map((data) => (
-          <div class="max-w-sm p-5  border-2 border-red-300">
-            <div className="pl-5 text-4xl text-[#EC323B]">
+          <div class="max-w-sm  p-5">
+            <div className="pl-5  flex md:justify-start justify-center items-center text-4xl text-[#EC323B]">
               {data.icon}
             </div>
             <div class="p-5">
