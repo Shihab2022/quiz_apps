@@ -3,7 +3,7 @@ import { FaAndroid ,FaApple,FaBlackberry , FaJava , FaBattleNet} from "react-ico
 const Footer = () => {
     return (
         <>
-             <div class="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+             <div class="px-10 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
   <div class="grid gap-10 row-gap-6 mb-4 sm:grid-cols-2 lg:grid-cols-4">
     <div class="sm:col-span-2">
       <a href="/" aria-label="Go home" title="Company" class="inline-flex items-center">
@@ -25,7 +25,7 @@ Alam Sutera Serpong, Tangerang 15323
       </div>
     </div>
     <div class=" text-lg">
-      <p class=" font-bold mb-3 tracking-wide text-gray-900">Contacts</p>
+      <p class=" font-bold text-xl mb-3 tracking-wide text-gray-900">Contacts</p>
       <div class="flex">
         <p class="mr-1 text-gray-800">Phone:</p>
         <p  class="">+62.21.5314.1135</p>
@@ -42,7 +42,7 @@ Alam Sutera Serpong, Tangerang 15323
       </div>
     </div>
     <div className='text-lg'>
-      <span class=" font-bold tracking-wide text-gray-900">Social</span>
+      <span class=" font-bold text-xl tracking-wide text-gray-900">Social</span>
       <div class="flex items-center mt-1 space-x-3">
         <a href="/" class="text-[#EC323B] text-2xl transition-colors duration-300 hover:text-deep-purple-accent-400">
         <FaAndroid/>

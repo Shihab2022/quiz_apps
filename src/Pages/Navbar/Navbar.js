@@ -5,7 +5,7 @@ import { FaRegEnvelopeOpen ,FaRegEnvelope,FaXing,FaAlignRight} from "react-icons
 const Navbar = () => {
     const menuItems=[
         {name : "Services" , path:'/' ,id:'1'},
-        {name : "Product" , path:'/' ,id:'2'},
+        {name : "Quiz" , path:'/quiz' ,id:'2'},
         {name : "Technology" , path:'/' ,id:'3'},
         {name : "About" , path:'/' ,id:'4'},
         {name : "Client" , path:'/' ,id:'5'},
@@ -20,11 +20,13 @@ const Navbar = () => {
           <span className="text-[#FEBA08]">I</span>
         </h>
         <div class="flex md:order-2">
-       <div className="flex text-xl text-zinc-700">
+     <div className="hidden md:block">
+     <div className="flex text-xl text-zinc-700">
         <FaRegEnvelopeOpen/>
         <FaRegEnvelope className="mx-4"/>
         <FaXing/>
        </div>
+     </div>
           <button
             data-collapse-toggle="navbar-sticky"
             type="button"
@@ -45,9 +47,8 @@ const Navbar = () => {
             {
                 menuItems.map(item=>  <li className="md:px-6 text-lg" key={item.id}>
                     <Link to={item.path}
-                      href="#"
                       class="block py-2 pr-4  pl-3 text-zinc-700 md:p-0 "
-                      aria-current="page"
+
                     >
                      {item.name}
                     </Link>
